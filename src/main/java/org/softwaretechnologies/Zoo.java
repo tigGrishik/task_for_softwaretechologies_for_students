@@ -16,7 +16,7 @@ public class Zoo {
     }
 
     /**
-     * Метод должен возвращять список звуков животных.
+     * Метод должен возвращать список звуков животных.
      * Звуки животных должны быть отсортированы по имени житного. Пример
      * Животные:
      *
@@ -28,13 +28,14 @@ public class Zoo {
      * Кошка: Мурзик
      * Собака: Бобик
      *
-     * Вовращаемый список звуков: moo, woof, meow, woof, meow, woof, moo
+     * Возвращаемый список звуков: moo, woof, meow, woof, meow, woof, moo
      *
      * @return Звуки животных, в алфавитном порядке имени животного.
      */
     public List<String> soundAllAnimalsSortByName() {
+        animalList.sort(Comparator.comparing(Animal :: getName));
         List<String> sounds = new ArrayList<>();
-        // TODO заполните корректно список звуков
+        for (Animal animal: animalList) sounds.add(animal.sound());
 
         return sounds;
     }
