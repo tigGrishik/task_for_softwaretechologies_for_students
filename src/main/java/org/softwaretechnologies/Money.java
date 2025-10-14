@@ -2,6 +2,7 @@ package org.softwaretechnologies;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.util.Objects;
 import java.util.Random;
 
 import static java.lang.Integer.MAX_VALUE;
@@ -31,7 +32,7 @@ public class Money {
 
         if (this.getClass() != o.getClass()) return false;
 
-        if (!this.type.equals(((Money) o).type)) return false;
+        if (!Objects.equals(this.type, ((Money) o).type)) return false;
 
         if (this.amount == null && ((Money) o).amount == null) return true;
         if (this.amount == null || ((Money) o).amount == null) return false;
