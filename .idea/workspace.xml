@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="631e36af-6f9a-4ffc-a638-cd5c0c305a14" name="Changes" comment="emptyProject">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/softwaretechnologies/MoneyTest.java" afterDir="false" />
+    <list default="true" id="631e36af-6f9a-4ffc-a638-cd5c0c305a14" name="Changes" comment="Money.java">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/softwaretechnologies/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/softwaretechnologies/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/softwaretechnologies/EqualsHashCodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/softwaretechnologies/EqualsHashCodeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +32,23 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="task_for_softwaretechologies_for_students" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="task_for_softwaretechologies_for_students" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="task_for_softwaretechologies_for_students" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -63,12 +75,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/tigGrishik/task_for_softwaretechologies_for_students",
-    "accountId": "1ceff2ab-10a7-4a3c-902d-01d856d4cff8"
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "tigGrishik"
   }
 }]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tigGrishik/task_for_softwaretechologies_for_students&quot;,
+    &quot;accountId&quot;: &quot;1ceff2ab-10a7-4a3c-902d-01d856d4cff8&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -79,12 +97,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Download Sources.executor": "Run",
     "Gradle.EqualsHashCodeTest.executor": "Run",
     "Gradle.EqualsHashCodeTest.validate.executor": "Run",
     "Gradle.MoneyTest.executor": "Run",
+    "Gradle.task_for_softwaretechologies_for_students [test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "task2",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Vera/IdeaProjects/task_for_softwaretechnologies",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -92,7 +113,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.MoneyTest">
+  <component name="RunManager" selected="Gradle.EqualsHashCodeTest">
     <configuration name="EqualsHashCodeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -187,11 +208,34 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="task_for_softwaretechologies_for_students [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.EqualsHashCodeTest" />
+        <item itemvalue="Gradle.task_for_softwaretechologies_for_students [test]" />
         <item itemvalue="Gradle.MoneyTest" />
         <item itemvalue="Gradle.EqualsHashCodeTest.validate" />
-        <item itemvalue="Gradle.EqualsHashCodeTest" />
         <item itemvalue="Gradle.task_for_softwaretechologies_for_students [build]" />
       </list>
     </recent_temporary>
