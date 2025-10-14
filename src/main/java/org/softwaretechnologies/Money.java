@@ -17,7 +17,7 @@ public class Money {
 
     /**
      * Money равны, если одинаковый тип валют и одинаковое число денег до 4 знака после запятой.
-     * Округление по правилу: если >= 5, то в большую сторону, интаче - в меньшую
+     * Округление по правилу: если >= 5, то в большую сторону, иначе - в меньшую
      * Пример округления:
      * BigDecimal scale = amount.setScale(4, RoundingMode.HALF_UP);
      *
@@ -26,14 +26,26 @@ public class Money {
      */
     @Override
     public boolean equals(Object o) {
-        // TODO: реализуйте вышеуказанную функцию
+        if (this == o) return  true;
+        if (o == null) return false;
 
-        return false;
+        if (this.getClass() != o.getClass()) return false;
+
+        if (!this.type.equals(((Money) o).type)) return false;
+
+        if (this.amount == null && ((Money) o).amount == null) return true;
+        if (this.amount == null || ((Money) o).amount == null) return false;
+
+
+        BigDecimal amount1 = this.amount.setScale(4, RoundingMode.HALF_UP);
+        BigDecimal amount2 = ((Money) o).amount.setScale(4, RoundingMode.HALF_UP);
+
+        return amount1.equals(amount2);
     }
 
     /**
      * Формула:
-     * (Если amount null 10000, иначе количество денег окрукленные до 4х знаков * 10000) + :
+     * (Если amount null 10000, иначе количество денег округленные до 4х знаков * 10000) + :
      * если USD , то 1
      * если EURO, то 2
      * если RUB, то 3
@@ -48,11 +60,26 @@ public class Money {
      */
     @Override
     public int hashCode() {
-        // TODO: реализуйте вышеуказанную функцию
+        if (this.amount == null) return 10_000;
+
+        BigDecimal scaled_amount = amount.setScale(4, RoundingMode.HALF_UP);
+
+        int t;
+        if (this.type == null) t = 5;
+        else{
+            switch (this.type){
+                case USD -> t = 1;
+                case EURO -> t = 2;
+                case RUB -> t = 3;
+                case KRONA -> t = 4;
+                default -> t = 0;
+            }
+        }
+        int A = scaled_amount.multiply(BigDecimal.valueOf(10_000)).intValue();
+        if (A >= MAX_VALUE-5) return MAX_VALUE;
+        return A+t;
 
 
-        Random random = new Random();
-        return random.nextInt();
     }
 
     /**
@@ -74,9 +101,10 @@ public class Money {
      */
     @Override
     public String toString() {
-        // TODO: реализуйте вышеуказанную функцию
-        String str = type.toString()+": "+amount.setScale(4, RoundingMode.HALF_UP).toString();
-        return str;
+        String str_type = (this.type == null) ? "null" : type.toString();
+        String str_amount = (this.amount == null) ? "null" :amount.setScale(4, RoundingMode.HALF_UP).toString();
+
+        return str_type + ": " + str_amount;
     }
 
     public BigDecimal getAmount() {

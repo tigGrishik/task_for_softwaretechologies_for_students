@@ -93,7 +93,6 @@ public class EqualsHashCodeTest {
         boolean c = EqualsVerifier.simple().forClass(C.class).report().isSuccessful();
         boolean d = EqualsVerifier.simple().forClass(D.class).report().isSuccessful();
         boolean e = EqualsVerifier.simple().forClass(E.class).report().isSuccessful();
-        assertTrue(e);
         /*
          * Какие классы содержат верную пару equals hashCode.
          * Невалидным может быть только один из методов.
@@ -102,5 +101,11 @@ public class EqualsHashCodeTest {
          * assertTrue(c);
          * assertFalse(a);
          */
+
+        assertTrue(a);
+        assertFalse(b);
+        assertFalse(c);
+        assertFalse(d);
+        assertTrue(e);
     }
 }

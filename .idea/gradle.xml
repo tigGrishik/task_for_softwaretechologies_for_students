@@ -5,6 +5,7 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/../task_for_softwaretechnologies" />
+        <option name="gradleJvm" value="corretto-19 (2)" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/../task_for_softwaretechnologies" />
@@ -13,7 +14,6 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
