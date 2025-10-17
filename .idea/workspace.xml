@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="631e36af-6f9a-4ffc-a638-cd5c0c305a14" name="Changes" comment="emptyProject">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/softwaretechnologies/employee/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/softwaretechnologies/employee/Programmer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/softwaretechnologies/employee/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/softwaretechnologies/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/softwaretechnologies/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/softwaretechnologies/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/softwaretechnologies/EmployeeFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,19 +62,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.CompanyTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "task3",
-    "last_opened_file_path": "C:/Users/Vera/IdeaProjects/mockito-core-4.8.1.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.38850576",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.CompanyTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;task3&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vera/IdeaProjects/mockito-core-4.8.1.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.38850576&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.CompanyTest">
     <configuration name="CompanyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -132,6 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CompanyTest.getMonthSalaryLeapYear" />
+        <item itemvalue="Gradle.CompanyTest" />
         <item itemvalue="Gradle.CompanyTest" />
         <item itemvalue="Gradle.CompanyTest.getMonthSalaryLeapYear" />
       </list>
